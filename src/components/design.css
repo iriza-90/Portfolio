@@ -1,0 +1,39 @@
+.design-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.horizontal-section {
+  background: linear-gradient(90deg, #dc178d, #ff9a44); /* Pink and orange gradient */
+  padding: 45px 0; /* Adjust the padding to make room for the oblique section */
+  position: relative;
+  z-index: 1; /* Lower z-index to ensure it's below the oblique section */
+}
+
+.oblique-section {
+  background: #f8f9fa;
+  transform: skewY(-3deg); 
+  position: absolute;
+  top: 20%; 
+  left: -50%; 
+  right: -50%; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px; 
+  padding: 0 700px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  z-index: 2; 
+}
+
+.design-item {
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sparkle {
+  margin-right: 5px;
+}

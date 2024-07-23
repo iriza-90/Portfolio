@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Example of importing a different font */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #000;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 28px; /* Adjusted for better size */
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+header .logo .jawad {
+  font-size: 32px; 
+  font-weight: bold;
+}
+
+header .logo .com {
+  font-size: 16px; /* Smaller size for ".com" */
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 15px; /* Reduced margin */
+}
+
+header nav ul li a {
+  color: #c2bdbd;
+  text-decoration: none;
+  font-size: 13px; /* Smaller font size */
+  font-weight: 400;
+  row-gap: 20px;
+}
+
+header .contact-btn {
+  background: linear-gradient(90deg, #900f5a, #ff8800);
+  color: #000;
+  padding: 8px 16px; /* Adjusted padding */
+  border: none;
+  border-radius: 25px; /* More curved border */
+  cursor: pointer;
+  font-size: 14px; /* Smaller font size */
+  font-family: 'Roboto', sans-serif; /* Updated font style */
+  font-weight: 700; /* Make the text bold */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for a modern look */
+  transition: background 0.3s ease;
+}
+
+header .contact-btn:hover {
+  background: linear-gradient(90deg, #ff8800, #ff0077); /* Reverse gradient on hover */
+}

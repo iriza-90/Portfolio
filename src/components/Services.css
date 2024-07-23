@@ -1,0 +1,74 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px;
+  background-color: #f8f9fa;
+}
+
+.services-content {
+  max-width: 40%;
+}
+
+.services-content h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.services-content p {
+  font-size: 16px;
+  margin: 30px 0;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.get-in-touch {
+  background: linear-gradient(90deg, #900f5a, #ff8800);
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.get-in-touch:hover {
+  background: linear-gradient(90deg, #ff8800, #ff0077);
+}
+
+.service-list {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjusted gap */
+  position: relative;
+  width: 500px;
+  padding: 40px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+}
+
+.service-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #d4126dec, #ff8800);
+  border-radius: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 28px;
+  margin-left: 260px;
+}

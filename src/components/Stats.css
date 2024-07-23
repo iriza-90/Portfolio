@@ -1,0 +1,26 @@
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #000;
+  color: #fff;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #ff8800, #ff0077);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}

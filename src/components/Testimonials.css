@@ -1,0 +1,66 @@
+.testimonials {
+  padding: 40px;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding-left: 50px; /* Adjust this to match the testimonial box alignment */
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+.testimonial {
+  background: #f8f9fa;
+  border: 5px solid transparent; /* Set border to be transparent initially */
+  border-image: linear-gradient(2deg, #ff88cc, #ff8800) 1;/* Apply gradient border */
+  border-width: 2px;
+  padding: 20px;
+  width: 360px; /* Increased width */
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: border-image 0.3s ease;
+}
+
+.testimonial:hover {
+  border-image: linear-gradient(45deg, #ff88cc, #ff8800) 1;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+.testimonial h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.testimonial span {
+  font-size: 14px;
+  color: #888;
+  font-family: 'Poppins', sans-serif;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  left: 20px;
+}
+
