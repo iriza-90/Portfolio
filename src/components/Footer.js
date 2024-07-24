@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contact">
       <div className="footer-top">
         <div className="footer-top-left">
           <h2>Have An Awesome Project <br /> Idea? Let's Discuss</h2>
@@ -17,21 +17,22 @@ const Footer = () => {
         <div className="footer-left">
           <span className="jawad">Joella</span><span className="com">.com</span>
           <p>I am a freelance full stack developer with experience of 2 years.<br /> In this 2 years I have worked on many projects & startups.</p>
+          <p>Email :     <a href="mailto:irizajll45@gmail.com" className="social-link">irizajll45@gmail.com</a></p>
         </div>
         <div className="footer-right">
           <nav>
-            <a href="#">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#services">About Me</a>
+            <a href="#contact">Contact</a>
           </nav>
           <div className="social-links">
-            <a href="#" className="social-link">
+            <a href="https://www.linkedin.com/in/joella-iriza-4a9052260/" className="social-link" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="social-link">
-              <i className="fab fa-twitter"></i>
+            <a href="https://github.com/iriza-90" className="social-link" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i>
             </a>
-            <a href="#" className="social-link">
+            <a href="https://www.instagram.com/i_r_i_z_a/" className="social-link" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i>
             </a>
           </div>

@@ -13,8 +13,9 @@
 .stat p {
   font-size: 14px;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 10px;
-  background: linear-gradient(90deg, #ff8800, #ff0077);
+  background: linear-gradient(90deg, #ff8800, #9c447d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

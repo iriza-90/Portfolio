@@ -23,7 +23,7 @@
 .testimonial {
   background: #f8f9fa;
   border: 5px solid transparent; /* Set border to be transparent initially */
-  border-image: linear-gradient(2deg, #ff88cc, #ff8800) 1;/* Apply gradient border */
+  border-image: linear-gradient(2deg, #9c447d, #ff8800) 1;/* Apply gradient border */
   border-width: 2px;
   padding: 20px;
   width: 360px; /* Increased width */
@@ -33,7 +33,7 @@
 }
 
 .testimonial:hover {
-  border-image: linear-gradient(45deg, #ff88cc, #ff8800) 1;
+  border-image: linear-gradient(45deg, #9c447d, #ff8800) 1;
 }
 
 .testimonial p {

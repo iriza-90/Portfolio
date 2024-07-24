@@ -4,7 +4,7 @@
 }
 
 .horizontal-section {
-  background: linear-gradient(90deg, #dc178d, #ff9a44); /* Pink and orange gradient */
+  background: linear-gradient(90deg, #9c447d, #ff8800); /* Pink and orange gradient */
   padding: 45px 0; /* Adjust the padding to make room for the oblique section */
   position: relative;
   z-index: 1; /* Lower z-index to ensure it's below the oblique section */

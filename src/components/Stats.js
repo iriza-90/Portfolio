@@ -6,12 +6,12 @@ const Stats = () => {
     <section className="stats">
       <div className="stat">
         <p>Projects Done</p>
-        <h3>15+</h3>
+        <h3>5+</h3>
         
       </div>
       <div className="stat">
          <p>Experience</p>
-        <h3>7+ Years</h3>
+        <h3>2+ Years</h3>
        
       </div>
       <div className="stat">

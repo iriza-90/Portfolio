@@ -15,7 +15,7 @@ const Header = () => {
           <li><a href="#testimonials">Testimonials</a></li>
         </ul>
       </nav>
-      <button className="contact-btn"><a href="#footer">LET'S TALK</a></button>
+      <button className="contact-btn"><a href="#contact">LET'S TALK</a></button>
     </header>
   );
 };

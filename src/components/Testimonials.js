@@ -13,9 +13,9 @@ const Testimonials = () => {
             <img src={avatar} alt="John Smith" className="avatar" />
           </div>
           <div className="testimonial-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-            <h4>John Smith</h4>
-            <span>Basic Company</span>
+            <p>Joella's AI-powered stress management platform is outstanding. Its intuitive design and personalized recommendations have greatly improved my stress levels. Highly recommended!</p>
+            <h4>Ornella</h4>
+            
           </div>
         </div>
         <div className="testimonial">
@@ -23,9 +23,9 @@ const Testimonials = () => {
             <img src={ava} alt="Rowhan Smith" className="avatar" />
           </div>
           <div className="testimonial-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-            <h4>Rowhan Smith</h4>
-            <span>Cebria Company</span>
+            <p>DREAM-DISCOVER is fantastic! The app's seamless design and top touristic recommendations made planning my trips effortless and enjoyable. A must-have for any traveler!</p>
+            <h4>Elton</h4>
+            
           </div>
         </div>
         <div className="testimonial">
@@ -33,9 +33,9 @@ const Testimonials = () => {
             <img src={ava} alt="Shavia Doe" className="avatar" />
           </div>
           <div className="testimonial-content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-            <h4>Shavia Doe</h4>
-            <span>Ukeaa Company</span>
+            <p>HEKTO transformed our online store with its sleek design and powerful features. It's user-friendly and highly effective—perfect for boosting sales and managing our inventory.</p>
+            <h4>Joyeuse</h4>
+            
           </div>
         </div>
       </div>
