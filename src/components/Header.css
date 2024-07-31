@@ -1,3 +1,4 @@
+/* Header.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Example of importing a different font */
 
 header {
@@ -64,4 +65,96 @@ header .contact-btn {
 
 header .contact-btn:hover {
   background: linear-gradient(90deg, #ff8800, #9c447d); /* Reverse gradient on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  header .logo {
+    font-size: 24px;
+  }
+
+  header .logo .jawad {
+    font-size: 28px;
+  }
+
+  header .logo .com {
+    font-size: 14px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+    display: none; /* Hide the menu by default */
+  }
+
+  header nav ul.show {
+    display: flex; /* Show the menu when the class 'show' is added */
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  header .contact-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo {
+    font-size: 20px;
+  }
+
+  header .logo .jawad {
+    font-size: 24px;
+  }
+
+  header .logo .com {
+    font-size: 12px;
+  }
+
+  header nav ul {
+    width: 100%;
+  }
+
+  header .contact-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.menu-toggle {
+  display: none; /* Hide by default */
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show the toggle button on smaller screens */
+  }
+
+  header nav ul {
+    display: none; /* Hide the menu by default */
+  }
+
+  header nav ul.show {
+    display: flex; /* Show the menu when the class 'show' is added */
+    flex-direction: column;
+    align-items: center;
+  }
 }

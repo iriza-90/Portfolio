@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="footer-left">
           <span className="jawad">Joella</span><span className="com">.com</span>
           <p>I am a freelance full stack developer with experience of 2 years.<br /> In this 2 years I have worked on many projects & startups.</p>
-          <p>Email :     <a href="mailto:irizajll45@gmail.com" className="social-link">irizajll45@gmail.com</a></p>
+          <p>Email: <a href="mailto:irizajll45@gmail.com" className="email-link">irizajll45@gmail.com</a></p>
         </div>
         <div className="footer-right">
           <nav>

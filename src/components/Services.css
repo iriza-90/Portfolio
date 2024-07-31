@@ -1,3 +1,4 @@
+/* Services.css */
 .services {
   display: flex;
   justify-content: space-between;
@@ -71,4 +72,99 @@
   color: #000;
   font-size: 28px;
   margin-left: 260px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+  }
+
+  .services-content {
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .services-content h2 {
+    font-size: 40px;
+  }
+
+  .services-content p {
+    font-size: 14px;
+  }
+
+  .service-list {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .service {
+    font-size: 26px;
+  }
+
+  .service-icon {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 40px;
+  }
+
+  .services-content h2 {
+    font-size: 36px;
+  }
+
+  .services-content p {
+    font-size: 13px;
+  }
+
+  .get-in-touch {
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+
+  .service {
+    font-size: 24px;
+  }
+
+  .service-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 20px;
+  }
+
+  .services-content h2 {
+    font-size: 30px;
+  }
+
+  .services-content p {
+    font-size: 12px;
+  }
+
+  .get-in-touch {
+    padding: 8px 20px;
+    font-size: 11px;
+  }
+
+  .service {
+    font-size: 20px;
+  }
+
+  .service-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
 }

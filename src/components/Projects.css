@@ -1,3 +1,4 @@
+/* Projects.css */
 .projects {
   padding: 50px;
   background-color: #f8f9fa;
@@ -67,4 +68,103 @@
 
 .project-button:hover {
   background: linear-gradient(45deg, #ff8800, #9c447d);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .project-list {
+    gap: 30px; /* Adjust gap for tablets */
+  }
+
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .project h3 {
+    font-size: 32px;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
+
+  .project-image {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .project-button {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 30px;
+  }
+
+  .projects h2 {
+    font-size: 36px;
+  }
+
+  .project-list {
+    gap: 20px; /* Adjust gap for smaller tablets */
+  }
+
+  .project h3 {
+    font-size: 28px;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+
+  .project-image {
+    width: 90%;
+  }
+
+  .project-button {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects h2 {
+    font-size: 30px;
+  }
+
+  .project-list {
+    gap: 15px; /* Adjust gap for mobile devices */
+  }
+
+  .project h3 {
+    font-size: 24px;
+  }
+
+  .project p {
+    font-size: 12px;
+  }
+
+  .project-image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .project-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }
