@@ -7,7 +7,7 @@ const Services = () => {
       <div className="services-content">
         <h2>Services I Am <br /> Providing</h2>
         <p>I am giving all kinds of software development services you need with good price. I ensure quality with unlimited revisions. So <br /> you can get the best products.</p>
-        <a href="#contact" className="get-in-touch">GET IN TOUCH</a>
+        <a href="/contact" className="get-in-touch">GET IN TOUCH</a>
       </div>
       <div className="service-list">
         <div className="service">
