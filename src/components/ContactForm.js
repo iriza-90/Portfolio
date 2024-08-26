@@ -1,45 +1,42 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './ContactForm.css'; // Ensure this includes the enhanced CSS
+import './ContactForm.css';
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [isLoading, setIsLoading] = useState(false);
   const [status, setStatus] = useState('');
-  const [isLoading, setIsLoading] = useState(false); // Loading state for better UX
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('Sending...');
     setIsLoading(true);
+    setStatus('');
+
     try {
-      await axios.post('/api/contact', formData);
-      setStatus('Email sent successfully!');
-      setFormData({
-        name: '',
-        email: '',
-        message: ''
-      });
+      const response = await axios.post('http://localhost:5000/api/contact', formData);
+      setStatus(response.data);
+      setFormData({ name: '', email: '', message: '' });
     } catch (error) {
-      console.error('Error sending email', error);
-      setStatus('Failed to send email. Please try again later.');
-    } finally {
-      setIsLoading(false); // Reset loading state
+      console.error('There was an error sending the message', error);
+      setStatus('Failed to send message');
     }
+
+    setIsLoading(false);
   };
 
   return (
     <div className="contact-form-outer-container">
       <div className="contact-form-container">
         <h2 className="contact-form-header">Contact Us</h2>
-        <form className="contact-form" onSubmit={handleSubmit} method='post' action='api/contact'>
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
             <input
