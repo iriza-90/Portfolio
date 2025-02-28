@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section id="home" className="hero">
       <div className="hero-content">
         <h1>Hello, <span className="highlight">I'm Joella</span>,<br /> full-stack developer <br /> based in Rwanda.</h1>
-        <p>I am a freelancer full-stack developer with experience of 2 years. In these 2 years I <br /> have worked with many big companies & startups</p>
+        <p>I am a freelancer full-stack developer with experience of 4+ years. In these 4 years I <br /> have worked with many big companies & startups</p>
         <div className="hero-buttons">
           <a href="/contact" className="get-in-touch">GET IN TOUCH</a>
           <a href="#projects" className="btn secondary">VIEW ALL WORKS</a>

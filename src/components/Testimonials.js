@@ -1,7 +1,8 @@
 import React from 'react';
 import './Testimonials.css';
-import avatar from '../joella.jpg';
-import ava from './3.jpg';
+import avatar from './Joyeuse.jpeg';
+import ava from './Elton.avif';
+import avat from './Nella.jpeg';
 
 const Testimonials = () => {
   return (
@@ -10,7 +11,7 @@ const Testimonials = () => {
       <div className="testimonial-list">
         <div className="testimonial">
           <div className="avatar-wrapper">
-            <img src={avatar} alt="Ornella" className="avatar" />
+            <img src={avat} alt="Ornella" className="avatar" />
           </div>
           <div className="testimonial-content">
             <p>Joella's AI-powered stress management platform is outstanding. Its intuitive design and personalized recommendations have greatly improved my stress levels. Highly recommended!</p>
@@ -28,7 +29,7 @@ const Testimonials = () => {
         </div>
         <div className="testimonial">
           <div className="avatar-wrapper">
-            <img src={ava} alt="Joyeuse" className="avatar" />
+            <img src={avatar} alt="Joyeuse" className="avatar" />
           </div>
           <div className="testimonial-content">
             <p>HEKTO transformed our online store with its sleek design and powerful features. It's user-friendly and highly effective—perfect for boosting sales and managing our inventory.</p>
