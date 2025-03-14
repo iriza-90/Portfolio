@@ -26,7 +26,7 @@ const Footer = () => {
             <a href="#contact">Contact</a>
           </nav>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/joella-iriza-4a9052260/" className="social-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/iriza-joella-6635b5353/" className="social-link" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="https://github.com/iriza-90" className="social-link" target="_blank" rel="noopener noreferrer">
