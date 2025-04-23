@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-left">
           <span className="jawad">Joella</span><span className="com">.com</span>
-          <p>I am a freelance full stack developer with experience of 4+ years.<br /> In th 4 years I have worked on many projects & startups.</p>
+          <p>I am a freelance full stack developer with experience of 3+ years.<br /> In the 3 years I have worked on many projects & startups.</p>
           <p>Email: <a href="mailto:irizajll45@gmail.com" className="email-link">irizajll45@gmail.com</a></p>
         </div>
         <div className="footer-right">
