@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="testimonial-list">
         <div className="testimonial">
           <div className="avatar-wrapper">
-            <img src={avat} alt="Ornella" className="avatar" />
+            <img src={avat} alt="Nella" className="avatar" />
           </div>
           <div className="testimonial-content">
             <p>Joella's AI-powered stress management platform is outstanding. Its intuitive design and personalized recommendations have greatly improved my stress levels. Highly recommended!</p>
@@ -20,11 +20,11 @@ const Testimonials = () => {
         </div>
         <div className="testimonial">
           <div className="avatar-wrapper">
-            <img src={ava} alt="Elton" className="avatar" />
+            <img src={ava} alt="" className="avatar" />
           </div>
           <div className="testimonial-content">
             <p>DREAM-DISCOVER is fantastic! The app's seamless design and top touristic recommendations made planning my trips effortless and enjoyable. A must-have for any traveler!</p>
-            <h4>Elton</h4>
+            <h4>Linda Kirezi</h4>
           </div>
         </div>
         <div className="testimonial">
@@ -33,7 +33,7 @@ const Testimonials = () => {
           </div>
           <div className="testimonial-content">
             <p>HEKTO transformed our online store with its sleek design and powerful features. It's user-friendly and highly effective—perfect for boosting sales and managing our inventory.</p>
-            <h4>Joyeuse</h4>
+            <h4>Hekto E-Commerce app Manager</h4>
           </div>
         </div>
       </div>
